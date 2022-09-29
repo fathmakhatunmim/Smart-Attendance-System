@@ -29,12 +29,17 @@ header("location:index.php?page=home");
 </head>
 <style>
 	body{
+
+  background-image: url('20211227_081334.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 		width: 100%;
 	    height: calc(100%);
 	    position: fixed;
 	    top:0;
 	    left: 0
-	    /*background: #007bff;*/
+	    /*background: #ff0000;*/
 	}
 	main#main{
 		width:100%;
@@ -44,14 +49,19 @@ header("location:index.php?page=home");
 
 </style>
 
-<body class="bg-dark">
+<body class="">
 
 
   <main id="main" >
+  <style>
+body {
+
+}
+</style>
   	
   		<div class="align-self-center w-100">
-		<h4 class="text-white text-center"><b><?php echo $_SESSION['system']['name'] ?></b></h4>
-  		<div id="login-center" class="bg-dark row justify-content-center">
+		<h3 class="text-white text-center"><b><?php echo $_SESSION['system']['name'] ?></b></h3>
+  		<div id="login-center" class="row justify-content-center">
   			<div class="card col-md-4">
   				<div class="card-body">
   					<form id="login-form" >

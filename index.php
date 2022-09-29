@@ -19,7 +19,16 @@
 </head>
 <style>
 	body{
-        background: #80808045;
+    background-image: url('20211227_081334.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+		width: 100%;
+	    height: calc(100%);
+	    position: fixed;
+	    top:0;
+	    left: 0
+	    /*background: #ff0000;*/
   }
   .modal-dialog.large {
     width: 80% !important;
