@@ -19,17 +19,19 @@
 </head>
 <style>
 	body{
-    background-image: url('20211227_081334.jpg');
+    background: #80808045;
+    background-image: url('156200_school-background-images_1600x1200_h.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
 		width: 100%;
 	    height: calc(100%);
 	    position: fixed;
-	    top:0;
-	    left: 0
+	    top: 20px;
+	    left: 100
 	    /*background: #ff0000;*/
   }
+  
   .modal-dialog.large {
     width: 80% !important;
     max-width: unset;

@@ -29,8 +29,8 @@ header("location:index.php?page=home");
 </head>
 <style>
 	body{
-
-  background-image: url('20211227_081334.jpg');
+		background: #80808045;
+    background-image: url('d43c415ce6c2c5c0c1609707f9a01b57.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
@@ -40,7 +40,8 @@ header("location:index.php?page=home");
 	    top:0;
 	    left: 0
 	    /*background: #ff0000;*/
-	}
+  }
+		
 	main#main{
 		width:100%;
 		height: calc(100%);
@@ -53,17 +54,12 @@ header("location:index.php?page=home");
 
 
   <main id="main" >
-  <style>
-body {
-
-}
-</style>
   	
-  		<div class="align-self-center w-100">
-		<h3 class="text-white text-center"><b><?php echo $_SESSION['system']['name'] ?></b></h3>
-  		<div id="login-center" class="row justify-content-center">
-  			<div class="card col-md-4">
-  				<div class="card-body">
+  		<div class="  align-self-center w-100">
+		<h4 class="text-black text-center"><b><?php echo $_SESSION['system']['name'] ?></b></h4>
+  		<div id="login-center" class="  row justify-content-center">
+  			<div class=" card col-md-4">
+  				<div class=" card-body">
   					<form id="login-form" >
   						<div class="form-group">
   							<label for="username" class="control-label">Username</label>

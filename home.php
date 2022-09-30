@@ -7,7 +7,6 @@
     top: 0;
 }
 .imgs{
-    
 		margin: .5em;
 		max-width: calc(100%);
 		max-height: calc(100%);
@@ -30,7 +29,6 @@
 		margin: auto;
 	}
 	#imagesCarousel img{
-        
 		width: auto!important;
 		height: auto!important;
 		max-height: calc(100%)!important;
@@ -38,9 +36,7 @@
 	}
 </style>
 
-
 <div class="containe-fluid">
-    
 	<div class="row mt-3 ml-3 mr-3">
         <div class="col-lg-12">
             <div class="card">
